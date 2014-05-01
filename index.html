@@ -1,0 +1,4918 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Conference Support System - Prototype</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link href="css/codiqa.ext.min.css" rel="stylesheet">
+  <link href="css/jqm-neue.css" rel="stylesheet">
+
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.mobile-1.3.1.min.js"></script>
+  <script src="js/codiqa.ext.min.js"></script>
+  <script src="js/conference-support-system-prototype.js"></script>
+</head>
+<body>
+  <div data-role="page" data-control-title="Home" data-theme="b" id="page1">
+      <div data-role="content">
+          <div data-role="fieldcontain" data-controltype="searchinput">
+              <input name="" id="searchinput1" placeholder="" value="search" type="search">
+          </div>
+          <div style=" text-align:center" data-controltype="image">
+              <img style="width: 250px; height: 145px" src="img/logo.jpg">
+          </div>
+      </div>
+      <div data-role="tabbar" data-iconpos="top" data-theme="c">
+          <ul>
+              <li>
+                  <a href="#page2" data-transition="fade" data-theme="" data-icon="info">
+                      About
+                  </a>
+              </li>
+              <li>
+                  <a href="#page4" data-transition="fade" data-theme="" data-icon="star">
+                      Favourites
+                  </a>
+              </li>
+              <li>
+                  <a href="#page17" data-transition="fade" data-theme="" data-icon="grid">
+                      Schedule
+                  </a>
+              </li>
+              <li>
+                  <a href="#page6" data-transition="fade" data-theme="" data-icon="bars">
+                      Speakers
+                  </a>
+              </li>
+              <li>
+                  <a href="#page7" data-transition="fade" data-theme="" data-icon="plus">
+                      Maps
+                  </a>
+              </li>
+              <li>
+                  <a href="#page8" data-transition="fade" data-theme="" data-icon="alert">
+                      News
+                  </a>
+              </li>
+              <li>
+                  <a href="#page9" data-transition="fade" data-theme="" data-icon="edit">
+                      Notes
+                  </a>
+              </li>
+              <li>
+                  <a href="#page10" data-transition="fade" data-theme="" data-icon="check">
+                      Registration
+                  </a>
+              </li>
+              <li>
+                  <a href="#page11" data-transition="fade" data-theme="" data-icon="forward">
+                      Contact
+                  </a>
+              </li>
+              <li>
+                  <a href="#" data-transition="fade" data-theme="" data-icon="refresh">
+                      Refresh
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="About" id="page2">
+      <div data-role="panel" id="panel2" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h5>
+              About
+          </h5>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel2" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <div data-controltype="textblock">
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel mollis
+                  purus, id pellentesque ipsum. Mauris scelerisque metus eget consequat congue.
+                  Etiam cursus purus sed sem faucibus, sed iaculis dolor dictum. Nunc ut
+                  eros viverra, vulputate nibh sed, luctus est. Suspendisse feugiat euismod
+                  nisi in tincidunt. Nam et neque eros. Maecenas viverra orci lacus, porta
+                  tristique augue sagittis ac. Suspendisse in lectus orci. Morbi hendrerit
+                  ut ante eget dapibus. Praesent vel porta felis. Quisque fermentum condimentum
+                  lorem luctus egestas. In hac habitasse platea dictumst. Praesent sit amet
+                  tortor eros. Duis commodo, justo ut condimentum tempus, augue est elementum
+                  mauris, at interdum augue nunc eu nisl. Nullam eget sollicitudin massa.
+              </p>
+          </div>
+          <div>
+              <a href="www.worcester.ac.uk" target="_blank" data-transition="fade">
+                  Our Website
+              </a>
+          </div>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Favourites" id="page4">
+      <div data-role="panel" id="panel4" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel3" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#NUMBER" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h3>
+              Favourites
+          </h3>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel4" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <div data-role="collapsible-set" data-theme="d" data-content-theme="a">
+              <div id="page16" data-role="collapsible">
+                  <h3>
+                      Day 1
+                  </h3>
+              </div>
+              <div data-role="collapsible">
+                  <h3>
+                      Day 2
+                  </h3>
+              </div>
+              <div data-role="collapsible" data-collapsed="false">
+                  <h3>
+                      Day 3
+                  </h3>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Schedule" id="page17">
+      <div data-role="panel" id="panel72" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel68" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel69" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel70" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel71" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#NUMBER" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h3>
+              Schedule
+          </h3>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel72" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <div data-role="fieldcontain" data-controltype="searchinput">
+              <input name="" id="searchinput4" placeholder="search for a session" value=""
+              data-mini="true" type="search">
+          </div>
+          <ul data-role="listview" data-divider-theme="d" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Day 1
+              </li>
+              <li data-theme="c">
+                  <a href="#page19" data-transition="slide">
+                      Session 1
+                      <span class="ui-li-count">
+                          time and location
+                      </span>
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page19" data-transition="slide">
+                      Session 2
+                      <span class="ui-li-count">
+                          time and location
+                      </span>
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page19" data-transition="slide">
+                      Session 3
+                      <span class="ui-li-count">
+                          time and location
+                      </span>
+                  </a>
+              </li>
+          </ul>
+          <ul data-role="listview" data-divider-theme="d" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Day 2
+              </li>
+              <li data-theme="c">
+                  <a href="#page19" data-transition="slide">
+                      Session 1
+                      <span class="ui-li-count">
+                          time and location
+                      </span>
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page19" data-transition="slide">
+                      Session 2
+                      <span class="ui-li-count">
+                          time and location
+                      </span>
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page19" data-transition="slide">
+                      Session 3
+                      <span class="ui-li-count">
+                          time and location
+                      </span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Speakers" id="page6">
+      <div data-role="panel" id="panel11" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel8" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel9" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel10" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#NUMBER" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h3>
+              Speakers
+          </h3>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel11" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <div data-role="fieldcontain" data-controltype="searchinput">
+              <input name="" id="searchinput2" placeholder="search for a speaker" value=""
+              data-mini="true" type="search">
+          </div>
+          <ul data-role="listview" data-divider-theme="e" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Day 1
+              </li>
+              <li data-theme="c">
+                  <a href="#page13" data-transition="slide">
+                      Speaker 1
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page13" data-transition="slide">
+                      Speaker 2
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page13" data-transition="slide">
+                      Speaker 3
+                  </a>
+              </li>
+          </ul>
+          <ul data-role="listview" data-divider-theme="e" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Day 2
+              </li>
+              <li data-theme="c">
+                  <a href="#page13" data-transition="slide">
+                      Speaker 1
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page13" data-transition="slide">
+                      Speaker 2
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page13" data-transition="slide">
+                      Speaker 3
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Maps" id="page7">
+      <div data-role="panel" id="panel16" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel12" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel13" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel14" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel15" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#NUMBER" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h3>
+              Maps
+          </h3>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel16" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <div data-role="navbar" data-iconpos="top">
+              <ul>
+                  <li>
+                      <a href="#page15" data-transition="fade" data-theme="" data-icon="">
+                          Conference
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#page14" data-transition="fade" data-theme="" data-icon="">
+                          Venue
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="News" id="page8">
+      <div data-role="panel" id="panel22" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel17" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel18" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel19" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel20" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel21" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#NUMBER" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h3>
+              News
+          </h3>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel22" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <ul data-role="listview" data-divider-theme="a" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Latest Changes
+              </li>
+              <li data-theme="f">
+                  <a href="#page16" data-transition="slide">
+                      Change 1
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page16" data-transition="slide">
+                      Change 2
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page16" data-transition="slide">
+                      Change 3
+                  </a>
+              </li>
+          </ul>
+          <ul data-role="listview" data-divider-theme="a" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Latest News
+              </li>
+              <li data-theme="b">
+                  <a href="#page16" data-transition="slide">
+                      News 1
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page16" data-transition="slide">
+                      News 2
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page16" data-transition="slide">
+                      News 3
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Notes" id="page9">
+      <div data-role="panel" id="panel29" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel23" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel24" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel25" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel26" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel27" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel28" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#NUMBER" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h3>
+              Notes
+          </h3>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel29" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <h2>
+              Anything to remember?
+          </h2>
+          <div data-role="fieldcontain" data-controltype="textarea">
+              <textarea name="" id="textarea5" placeholder="Note 1"></textarea>
+          </div>
+          <div data-role="fieldcontain" data-controltype="textarea">
+              <textarea name="" id="textarea8" placeholder="Note 2"></textarea>
+          </div>
+          <div data-role="fieldcontain" data-controltype="textarea">
+              <textarea name="" id="textarea9" placeholder="Note 3"></textarea>
+          </div>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Registration" id="page10">
+      <div data-role="panel" id="panel37" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel30" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel31" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel32" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel33" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel34" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel35" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel36" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#NUMBER" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h3>
+              Registration
+          </h3>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel37" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <div data-role="fieldcontain" data-controltype="textinput">
+              <input name="" id="textinput8" placeholder="First name" value="" data-mini="true"
+              type="text">
+          </div>
+          <div data-role="fieldcontain" data-controltype="textinput">
+              <input name="" id="textinput12" placeholder="Last Name" value="" data-mini="true"
+              type="text">
+          </div>
+          <div data-role="fieldcontain" data-controltype="textinput">
+              <input name="" id="textinput14" placeholder="Organisation" value="" data-mini="true"
+              type="text">
+          </div>
+          <div data-role="fieldcontain" data-controltype="textinput">
+              <input name="" id="textinput13" placeholder="Country" value="" data-mini="true"
+              type="text">
+          </div>
+          <div data-role="fieldcontain" data-controltype="textinput">
+              <input name="" id="textinput9" placeholder="Phone Number" value="" data-mini="true"
+              type="text">
+          </div>
+          <div data-role="fieldcontain" data-controltype="textinput">
+              <input name="" id="textinput10" placeholder="E-mail Address" value=""
+              data-mini="true" type="text">
+          </div>
+          <div data-role="fieldcontain" data-controltype="selectmenu">
+              <select id="selectmenu2" data-native-menu="false" name="" data-mini="true">
+                  <option value="option1">
+                      Package 1
+                  </option>
+                  <option value="value">
+                      Package 2
+                  </option>
+                  <option value="value">
+                      Package 3
+                  </option>
+              </select>
+          </div>
+          <div id="checkboxes1" data-role="fieldcontain" data-controltype="checkboxes">
+              <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                  <input id="checkbox1" name="" type="checkbox">
+                  <label for="checkbox1">
+                      Conference News
+                  </label>
+              </fieldset>
+          </div>
+          <input data-theme="e" value="Submit" type="submit">
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Contact" id="page11">
+      <div data-role="panel" id="panel46" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page10" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel38" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel39" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel40" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel41" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel42" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel43" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel44" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel45" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#NUMBER" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h3>
+              Contact
+          </h3>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel46" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <h4>
+              e-mail us at conference@host.co.uk
+          </h4>
+          <h4>
+              call us at 07856 943235
+          </h4>
+          <hr style="height:1px; background-color:#fff; border:0; margin-top:12px; margin-bottom:12px;">
+          <h4>
+              or use the form below
+          </h4>
+          <div data-role="fieldcontain" data-controltype="textinput">
+              <input name="" id="textinput5" placeholder="Name" value="" data-mini="true"
+              type="text">
+          </div>
+          <div data-role="fieldcontain" data-controltype="textinput">
+              <input name="" id="textinput6" placeholder="Phone Number" value="" data-mini="true"
+              type="text">
+          </div>
+          <div data-role="fieldcontain" data-controltype="textinput">
+              <input name="" id="textinput7" placeholder="E-mail Address" value="" data-mini="true"
+              type="text">
+          </div>
+          <div data-role="fieldcontain" data-controltype="textarea">
+              <textarea name="" id="textarea3" placeholder="Message" data-mini="true"></textarea>
+          </div>
+          <input data-theme="e" data-icon="arrow-r" data-iconpos="right" value="Submit"
+          data-mini="true" type="submit">
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Session" id="page19">
+      <div data-role="panel" id="panel79" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel73" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel74" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel75" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel76" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel77" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel78" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#NUMBER" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h3>
+              Session
+          </h3>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel79" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <a data-role="button" data-inline="true" data-rel="back" data-theme="d"
+          href="#page17">
+              Back
+          </a>
+          <h4>
+              time - 15:00
+          </h4>
+          <h4>
+              location - CH1007
+          </h4>
+          <h4>
+              speaker - name
+          </h4>
+          <div data-controltype="textblock">
+              <p>
+                  <span style="font-size: small;">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel mollis
+                      purus, id pellentesque ipsum. Mauris scelerisque metus eget consequat congue.
+                      Etiam cursus purus sed sem faucibus, sed iaculis dolor dictum. Nunc ut
+                      eros viverra, vulputate nibh sed, luctus est. Suspendisse feugiat euismod
+                      nisi in tincidunt. Nam et neque eros. Maecenas viverra orci lacus, porta
+                      tristique augue sagittis ac. Suspendisse in lectus orci. Morbi hendrerit
+                      ut ante eget dapibus. Praesent vel porta felis. Quisque fermentum condimentum
+                      lorem luctus egestas. In hac habitasse platea dictumst. Praesent sit amet
+                      tortor eros. Duis commodo, justo ut condimentum tempus, augue est elementum
+                      mauris, at interdum augue nunc eu nisl. Nullam eget sollicitudin massa.
+                  </span>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="Speaker" id="page13">
+      <div data-role="panel" id="panel52" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel47" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel48" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel49" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel50" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel51" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#NUMBER" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h3>
+              Speaker
+          </h3>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel52" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <a data-role="button" data-inline="true" data-rel="back" data-theme="e"
+          href="#page6">
+              Back
+          </a>
+          <div style="" data-controltype="image">
+              <img style="width: 200px; height: 200px" src="img/speaker1.jpg">
+          </div>
+          <div data-controltype="textblock">
+              <p>
+                  <span style="font-size: small;">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel mollis
+                      purus, id pellentesque ipsum. Mauris scelerisque metus eget consequat congue.
+                      Etiam cursus purus sed sem faucibus, sed iaculis dolor dictum. Nunc ut
+                      eros viverra, vulputate nibh sed, luctus est. Suspendisse feugiat euismod
+                      nisi in tincidunt. Nam et neque eros. Maecenas viverra orci lacus, porta
+                      tristique augue sagittis ac. Suspendisse in lectus orci. Morbi hendrerit
+                      ut ante eget dapibus. Praesent vel porta felis. Quisque fermentum condimentum
+                      lorem luctus egestas. In hac habitasse platea dictumst. Praesent sit amet
+                      tortor eros. Duis commodo, justo ut condimentum tempus, augue est elementum
+                      mauris, at interdum augue nunc eu nisl. Nullam eget sollicitudin massa.
+                  </span>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="conferenceLocation" id="page15">
+      <div data-role="panel" id="panel67" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel60" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel61" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel62" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel63" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel64" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel65" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel66" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#NUMBER" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h3>
+              Conference Location
+          </h3>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel67" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <a data-role="button" data-inline="true" data-rel="back" data-theme="e"
+          href="#page7">
+              Back
+          </a>
+          <div data-controltype="textblock">
+              <address>
+                  University of Worcester
+              </address>
+              <address>
+                  City Campus
+              </address>
+              <address>
+                  Castle Street
+              </address>
+              <address>
+                  Worcester
+              </address>
+              <address>
+                  WR1 3AS
+              </address>
+          </div>
+          <hr style="height:1px; background-color:#fff; border:0; margin-top:12px; margin-bottom:12px;">
+          <div id="googlemapsjs1" class="google-map" style="width: 288px; height: 200px; margin-left: auto; margin-right: auto">
+          </div>
+          <script type="text/javascript">
+                  window.CodiqaControls && window.CodiqaControls.register('googlemaps', 'googlemapsjs1', {
+              ready: function(control) {
+  
+                  control.options = {
+                      zoom: 14,
+                      mapTypeId: google.maps.MapTypeId.ROADMAP
+                  };
+  
+                  control.el = document.getElementById(control._id);
+                  control.map = new google.maps.Map(control.el, control.options);
+  
+                  var geocoder = new google.maps.Geocoder();
+                  geocoder.geocode({
+                      'address': 'Worcester, United Kingdom'
+                  }, function(results, status) {
+                      if (status == google.maps.GeocoderStatus.OK) {
+  
+                          var marker = new google.maps.Marker({
+                              map: control.map,
+                              position: results[0].geometry.location
+                          });
+                          control.center = results[0].geometry.location;
+                          control.map.setCenter(control.center);
+                      }
+                  });
+  
+              }
+          });
+          </script>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="venueMap" id="page14" style="background: url('img/venuemap.png') no-repeat">
+      <div data-role="panel" id="panel59" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel53" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel54" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel55" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page5" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel56" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel57" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel58" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#NUMBER" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h3>
+              Venue Map
+          </h3>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel59" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <a data-role="button" data-inline="true" data-rel="back" data-theme="e"
+          href="#page7">
+              Back
+          </a>
+          <div style="" data-controltype="image">
+              <img style="width: 500px; height: 500px" src="https://s3.amazonaws.com/assets.codiqa.com/cTncrnp1SeqrVlpfZdnU_venueMap.png">
+          </div>
+      </div>
+  </div>
+  <div data-role="page" data-control-title="New" id="page16">
+      <div data-role="panel" id="panel81" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="panel" id="panel80" data-position="left" data-display="push"
+      data-theme="f">
+          <ul data-role="listview" data-divider-theme="c" data-inset="false">
+              <li data-theme="b">
+                  <a href="#page1" data-transition="slide">
+                      Home
+                  </a>
+              </li>
+              <li data-theme="c">
+                  <a href="#page2" data-transition="slide">
+                      About
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page4" data-transition="slide">
+                      Favourites
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page17" data-transition="slide">
+                      Schedule
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page6" data-transition="slide">
+                      Speakers
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page7" data-transition="slide">
+                      Maps
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page8" data-transition="slide">
+                      News
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page9" data-transition="slide">
+                      Notes
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page10" data-transition="slide">
+                      Registration
+                  </a>
+              </li>
+              <li data-theme="b">
+                  <a href="#page11" data-transition="slide">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-theme="a" data-role="header">
+          <h5>
+              News
+          </h5>
+      </div>
+      <div data-role="content">
+          <a data-controltype="panelbutton" data-role="button" data-inline="false"
+          data-theme="c" href="#panel81" data-icon="bars" data-iconpos="left">
+              Navigation
+          </a>
+          <a data-role="button" data-inline="true" data-rel="back" data-theme="e"
+          href="#page8">
+              Back
+          </a>
+          <div data-controltype="textblock">
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel mollis
+                  purus, id pellentesque ipsum. Mauris scelerisque metus eget consequat congue.
+                  Etiam cursus purus sed sem faucibus, sed iaculis dolor dictum. Nunc ut
+                  eros viverra, vulputate nibh sed, luctus est. Suspendisse feugiat euismod
+                  nisi in tincidunt. Nam et neque eros. Maecenas viverra orci lacus, porta
+                  tristique augue sagittis ac. Suspendisse in lectus orci. Morbi hendrerit
+                  ut ante eget dapibus. Praesent vel porta felis. Quisque fermentum condimentum
+                  lorem luctus egestas. In hac habitasse platea dictumst. Praesent sit amet
+                  tortor eros. Duis commodo, justo ut condimentum tempus, augue est elementum
+                  mauris, at interdum augue nunc eu nisl. Nullam eget sollicitudin massa.
+              </p>
+          </div>
+          <div>
+              <a href="www.worcester.ac.uk" target="_blank" data-transition="fade">
+                  for more ...
+              </a>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
